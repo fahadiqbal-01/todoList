@@ -148,7 +148,7 @@ const Todo = () => {
                   <BiEdit className="text-[25px] hover:text-white hover:opacity-[.5] " />
                 </button>
                 <button onClick={() => handleDelete(item.id)}>
-                  <MdDelete className="text-[25px] hover:text-white hover:opacity-[.5]  " />
+                  <MdDelete className="text-[25px] hover:text-white " />
                 </button>
               </div>
             </li>
