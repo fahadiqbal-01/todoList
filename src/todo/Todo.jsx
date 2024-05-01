@@ -155,7 +155,7 @@ const Todo = () => {
           ))}
         </ul>
         {taskedit && (
-          <div className="text-center w-[103%] absolute top-[43px] left-[50%] transform translate-x-[-50%] backdrop-blur-sm py-[200px] ">
+          <div className="text-center w-[102%] absolute top-[43px] left-[50%] transform translate-x-[-50%] backdrop-blur-sm py-[200px] ">
             <label
               htmlFor="email"
               className="block text-[25px] font-mono font-[600] tracking-[2px] mb-[20px] "
